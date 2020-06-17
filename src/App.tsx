@@ -1,8 +1,9 @@
 import React, {FC} from 'react'
 import { Button } from 'antd'
 import './App.css'
+import PriceList from './components/PriceList/priceList'
 
-const items = [
+const items1 = [
   {
     "id": 1,
     "title": "去新疆游玩",
@@ -13,13 +14,25 @@ const items = [
       "name": "旅行",
       "type": "outcome"
     }
+  },
+  {
+    "id": 2,
+    "title": "去拉萨游玩",
+    "price": 200,
+    "date": "2020-06-18",
+    "category": {
+      "id": 1,
+      "name": "旅行",
+      "type": "income"
+    }
   }
 ]
 
 const App: FC = () => {
   return (
     <div className="App">
-      <Button type="primary">Button</Button>
+      {/* <Button type="primary">Button</Button> */}
+      <PriceList items={items1} onModifyItem={(item) => {alert(item.id)}}  onDeleteItem={(item) => {alert(item.id)}} />
     </div>
   )
 }

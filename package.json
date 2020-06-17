@@ -12,6 +12,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-transition-group": "^4.4.0",
     "antd": "^4.3.4",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@ant-design/icons": "^4.2.1",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-info": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
