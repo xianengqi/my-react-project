@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",    // 编译后的文件名
+    "module": "esnext",
+    "target": "es5",     // 编译成ES5
+    "declaration": true, // 声明文件
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": [  // 需要编译的文件
+    "src"
+  ],
+  "exclude": [  // 不需要编译的文件
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx"
+  ]
+}

@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { FC } from "react";
 import { List, Button } from "antd";
 import { createFromIconfontCN } from "@ant-design/icons";
 import { ILedgerInfo } from "../../interface/ledger";
@@ -14,7 +14,7 @@ interface IPriceListProps {
 }
 
 export const PriceList: FC<IPriceListProps> = (props) => {
-  const { items, onModifyItem, onDeleteItem, children } = props;
+  const { items, onModifyItem, onDeleteItem } = props;
   const handleEdit = (item: ILedgerInfo) => {
     if (onModifyItem) {
       onModifyItem(item);
