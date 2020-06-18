@@ -13,7 +13,8 @@ const items1 = [
     "category": {
       "id": 1,
       "name": "旅行",
-      "type": "outcome"
+      "type": "outcome",
+      "iconName": "icon-lvyoutehui"
     }
   },
   {
@@ -24,13 +25,14 @@ const items1 = [
     "category": {
       "id": 1,
       "name": "旅行",
-      "type": "outcome"
+      "type": "outcome",
+      "iconName": "icon-lvyoutehui"
     }
   }
 ]
 
 const defaultPriceList = () => (
-  <PriceList items={items1} onModifyItem={action('edit')} onDeleteItem={action('delete')} />
+  <PriceList items={items1} onModifyItem={(item) => {alert(item.id)}} onDeleteItem={(item) => {alert(item.id)}} />
 )
 storiesOf('PriceList', module)
   .add('PriceList', defaultPriceList)

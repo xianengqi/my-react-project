@@ -1,5 +1,4 @@
 import React, {FC} from 'react'
-import { Button } from 'antd'
 import './App.css'
 import PriceList from './components/PriceList/priceList'
 
@@ -12,7 +11,8 @@ const items1 = [
     "category": {
       "id": 1,
       "name": "旅行",
-      "type": "outcome"
+      "type": "outcome",
+      "iconName": "icon-lvxing"
     }
   },
   {
@@ -23,7 +23,8 @@ const items1 = [
     "category": {
       "id": 1,
       "name": "旅行",
-      "type": "income"
+      "type": "income",
+      "iconName": "icon-lvyoutehui"
     }
   }
 ]
