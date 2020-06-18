@@ -30,8 +30,8 @@ addParameters({info: { inline: true, header: false}})
 
 const loaderFn = () => {
   return [
-    require('../src/components/PriceList/priceList.stories.tsx')
-
+    require('../src/welcome.stories.tsx'),
+    require('../src/components/PriceList/priceList.stories.tsx'),
   ]
 }
 
