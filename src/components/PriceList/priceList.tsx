@@ -8,7 +8,7 @@ const IconFont = createFromIconfontCN({
 });
 
 interface IPriceListProps {
-  items?: ILedgerInfo[];
+  items: ILedgerInfo[];
   onModifyItem?: (item: ILedgerInfo) => void;
   onDeleteItem?: (item: ILedgerInfo) => void;
 }

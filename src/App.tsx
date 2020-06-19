@@ -33,8 +33,6 @@ const App: FC = () => {
   return (
     
     <div className="App">
-      
-      {/* <Button type="primary">Button</Button> */}
       <PriceList items={items1} onModifyItem={(item) => {alert(item.id)}}  onDeleteItem={(item) => {alert(item.id)}} />
     </div>
   )
