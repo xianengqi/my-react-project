@@ -32,6 +32,9 @@ const loaderFn = () => {
   return [
     require('../src/welcome.stories.tsx'),
     require('../src/components/PriceList/priceList.stories.tsx'),
+    require('../src/components/ViewTab/viewTab.stories.tsx'),
+    require('../src/components/IconFont/iconFont.stories.tsx'),
+
   ]
 }
 
