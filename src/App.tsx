@@ -1,7 +1,8 @@
 import React, {FC} from 'react'
-import './App.css'
+import './App.css';
+import "../src/styles/index.scss";
 import PriceList from './components/PriceList/priceList'
-
+import ViewTab from './components/ViewTab/viewTab'
 const items1 = [
   {
     "id": 1,
@@ -33,6 +34,10 @@ const App: FC = () => {
   return (
     
     <div className="App">
+      <div>
+        <ViewTab />
+      </div>
+      
       <PriceList items={items1} onModifyItem={(item) => {alert(item.id)}}  onDeleteItem={(item) => {alert(item.id)}} />
     </div>
   )

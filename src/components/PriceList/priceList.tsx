@@ -45,7 +45,7 @@ export const PriceList: FC<IPriceListProps> = (props) => {
           />
           <span>{item.title}</span>
           <span>
-            {item.category?.type === "income" ? "+" : "-"}
+            {item.category.type === "income" ? "+" : "-"}
             {item.price}元
           </span>
           <span>{item.date}</span>

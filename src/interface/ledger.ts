@@ -6,7 +6,7 @@ export interface ILedgerInfo {
   title?: string;
   price?: number;
   date?: string;
-  category?: {
+  category: {
     id?: number;
     name?: string;
     type?: typeInfo | string;
