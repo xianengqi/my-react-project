@@ -1,11 +1,8 @@
 import React, { FC } from "react";
 import { List, Button } from "antd";
-import { createFromIconfontCN } from "@ant-design/icons";
-import { ILedgerInfo } from "../../interface/ledger";
 
-const IconFont = createFromIconfontCN({
-  scriptUrl: ["//at.alicdn.com/t/font_1891915_ndgr420z3gq.js"],
-});
+import { ILedgerInfo } from "../../interface/ledger";
+import { IconFont } from '../IconFont/iconFont'
 
 interface IPriceListProps {
   items: ILedgerInfo[];
@@ -39,7 +36,7 @@ export const PriceList: FC<IPriceListProps> = (props) => {
           <IconFont
             type={item.category?.iconName || ""}
             style={{
-              fontSize: "20px",
+              fontSize: "30px",
               backgroundColor: "#007bff",
               borderRadius: "2px",
               padding: "5px",
