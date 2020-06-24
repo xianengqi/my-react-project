@@ -34,6 +34,8 @@ const loaderFn = () => {
     require('../src/components/PriceList/priceList.stories.tsx'),
     require('../src/components/ViewTab/viewTab.stories.tsx'),
     require('../src/components/IconFont/iconFont.stories.tsx'),
+    require('../src/components/TotalPrice/totalPrice.stories.tsx'),
+    require('../src/components/MonthPicker/monthPicker.stories.tsx'),
 
   ]
 }
