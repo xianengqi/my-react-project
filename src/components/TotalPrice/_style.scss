@@ -1,5 +1,7 @@
 .total-price {
-  // display: flex;
+    &-white{
+      color: #ffffff;
+    }
   .income {
     display: flex;
     justify-content: flex-start;

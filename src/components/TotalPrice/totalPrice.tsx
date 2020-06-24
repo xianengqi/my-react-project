@@ -12,7 +12,7 @@ export const TotalPrice: FC<ITotalProps> = (props) => {
   const { income, outcome } = props;
   return (
     <div className="total-price">
-      <Row justify="space-around">
+      <Row justify="center" className="total-price-white">
         <Col span={8}>
           <div className="income">收入 : {income} 元</div>
         </Col>

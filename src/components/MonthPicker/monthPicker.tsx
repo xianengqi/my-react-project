@@ -13,9 +13,10 @@ export const MonthPicker: FC = (props) => {
   }
   
   return (
-    <div>
+    <>
+      <div style={{color: '#ffff', paddingBottom: '5px'}}>选择月份</div>
       <DatePicker style={{width:'160px'}} locale={locale}  onChange={onChange} format={dateFormat} />
-    </div>
+    </>
   )
 }
 
