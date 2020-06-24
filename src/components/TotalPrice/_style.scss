@@ -1,0 +1,14 @@
+.total-price {
+  // display: flex;
+  .income {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+
+  }
+  .outcome {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+}

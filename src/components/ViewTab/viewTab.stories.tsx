@@ -8,4 +8,4 @@ const defaultPriceList = () => (
   <ViewTab  />
 )
 storiesOf('ViewTab', module)
-  .add('ViewTab', defaultPriceList)
+  .add('Tab组件切换', defaultPriceList)
