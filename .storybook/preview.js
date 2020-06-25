@@ -31,11 +31,12 @@ addParameters({info: { inline: true, header: false}})
 const loaderFn = () => {
   return [
     require('../src/welcome.stories.tsx'),
-    require('../src/components/PriceList/priceList.stories.tsx'),
-    require('../src/components/ViewTab/viewTab.stories.tsx'),
-    require('../src/components/IconFont/iconFont.stories.tsx'),
-    require('../src/components/TotalPrice/totalPrice.stories.tsx'),
-    require('../src/components/MonthPicker/monthPicker.stories.tsx'),
+    require('../src/containers/Home/home.stories.tsx'),
+    require('../src/containers/Home/components/PriceList/priceList.stories.tsx'),
+    require('../src/containers/Home/components/ViewTab/viewTab.stories.tsx'),
+    require('../src/containers/Home/components/IconFont/iconFont.stories.tsx'),
+    require('../src/containers/Home/components/TotalPrice/totalPrice.stories.tsx'),
+    require('../src/containers/Home/components/MonthPicker/monthPicker.stories.tsx'),
 
   ]
 }

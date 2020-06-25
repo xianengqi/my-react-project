@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { List, Button } from "antd";
 
-import { ILedgerInfo } from "../../interface/ledger";
+import { ILedgerInfo } from "../../../../interface/ledger";
 import { IconFont } from '../IconFont/iconFont'
 
 interface IPriceListProps {

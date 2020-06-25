@@ -1,13 +1,16 @@
 
-@import '../components/PriceList/style';
+@import '../containers/Home/components/PriceList/style';
 
 // iconfont
 // @import "../components/IconFont/style";
 // viewTab
-@import "../components//ViewTab/style";
+@import "../containers/Home/components//ViewTab/style";
 
 // totalPrice
-@import "../components//TotalPrice/style";
+@import "../containers/Home/components//TotalPrice/style";
 
 // Home
 @import "../containers/Home/style";
+
+// CreateBtn
+@import "../containers/Home/components/CreateBtn/style";

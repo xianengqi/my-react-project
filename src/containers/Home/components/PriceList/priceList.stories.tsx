@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-// import { action } from '@storybook/addon-actions'
+import { action } from '@storybook/addon-actions'
 
 import PriceList from './priceList'
 
@@ -32,7 +32,7 @@ const items1 = [
 ]
 
 const defaultPriceList = () => (
-  <PriceList items={items1} onModifyItem={(item) => {alert(item.id)}} onDeleteItem={(item) => {alert(item.id)}} />
+  <PriceList items={items1} onModifyItem={action('编辑')} onDeleteItem={action('删除')} />
 )
 storiesOf('PriceList', module)
   .add('PriceList', defaultPriceList)

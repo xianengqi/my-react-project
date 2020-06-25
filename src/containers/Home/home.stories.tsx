@@ -6,9 +6,9 @@ import Home from './home'
 
 const defaultPriceList = () => (
   <div>
-    <Home />
+    <Home  />
   </div>
   
 )
-storiesOf('Home', module)
+storiesOf('主页', module)
   .add('主页', defaultPriceList)
