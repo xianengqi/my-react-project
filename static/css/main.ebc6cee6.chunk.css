@@ -1,0 +1,8 @@
+.view-tab .ant-tabs .ant-tabs-nav .ant-tabs-nav-wrap{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-around}.view-tab .ant-tabs-tab{justify-content:space-around;width:50vh}.view-tab .ant-tabs-tabpane{text-align:center}.total-price-white{color:#ffffff}.total-price .income{display:flex;justify-content:flex-start}.total-price .outcome{display:flex;justify-content:flex-end}.App-header{width:100%;height:200px;background-color:#252525}.App-header-month{padding-top:120px}.content-area{background:#fff;padding-top:3px}.create-btn{display:flex;justify-content:center;padding-top:5px;margin-bottom:10px}
+
+.info-table{width:100%}.info-table,.info-table td,.info-table th{border-collapse:collapse;border:1px solid #cccccc;color:#444444;margin-top:0.25rem;padding-right:0.5rem;padding:0.25rem;text-align:left;vertical-align:top}.info-table-monospace{font-family:Menlo, Monaco, "Courier New", monospace;font-size:0.88em}code{color:#1072a0}p{color:#66e2dc}.title{color:red}
+
+.icon-font{width:1em;height:1em;vertical-align:-0.15em;fill:currentColor;overflow:hidden}.iconfont.loadingstyle{color:red;font-size:40px}.if-spin{width:40px;-webkit-animation:if-spin 2s infinite linear;animation:if-spin 2s infinite linear}.if-pulse{-webkit-animation:if-spin 1s infinite steps(8);animation:if-spin 1s infinite steps(8)}@-webkit-keyframes if-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}@keyframes if-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+
+
+/*# sourceMappingURL=main.ebc6cee6.chunk.css.map*/
